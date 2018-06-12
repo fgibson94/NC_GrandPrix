@@ -14,6 +14,7 @@ var PORT = process.env.PORT || 3030;
 
 // Requiring our models for syncing
 var db = require("./models");
+// var entries = require("./controllers/entries");
 
 // Sets up the Express app to handle data parsing
 
@@ -34,9 +35,11 @@ app.get('/', function(req,res){
 //   console.log("App listening on PORT " + PORT);
 // });
 
-//API Key
+//GoogleMaps API
 // =============================================================
-var googleKey = require("./controllers/google_maps.js")
+
+var googleMap = require("./controllers/google_maps.js")
+
 // Routes
 // =============================================================
 //require("./routes/api-routes.js")(app);
@@ -44,8 +47,12 @@ var googleKey = require("./controllers/google_maps.js")
 
 // Syncing our sequelize models and then starting our Express app
 // // =============================================================
-db.sequelize.sync({ force: true }).then(function() {
-  app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
-});
+// db.sequelize.sync({ force: true }).then(function() {
+//   app.listen(PORT, function() {
+//     console.log("App listening on PORT " + PORT);
+
+//     db.User.findAll().then(entries => {
+//       console.log("ENTRIES",entries);
+//     })
+//   });
+// });
