@@ -2165,6 +2165,15 @@ a.box:active {
   vertical-align: top;
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .table td,
+  .table th {
+    padding: 5px 5px;
+}
+}
+
 .table td.is-icon,
 .table th.is-icon {
   padding: 5px;
