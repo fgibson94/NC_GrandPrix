@@ -2166,8 +2166,8 @@ a.box:active {
 }
 
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
+and (min-width : 375px) 
+and (max-width : 667px) { 
   .table td,
   .table th {
     padding: 5px 5px;
