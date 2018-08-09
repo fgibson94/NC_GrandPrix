@@ -10,6 +10,14 @@ For Formula 1 fans and everyone in between, NCGP allows users to compare their d
 ## Technologies Used
 - [x] HTML5, Bulma, Javascript, jQuery, Express, Node, Sequelize
 
+## Preview
+
+On this screen users are able to choose a race from the drop down and view the current results. The table data and track picture are updated per users selection.
+![NC_GrandPrix](public/assets/img/race.png)
+
+Here users can input their commute times, choose their prefered driver, and view results on the right container.
+![NC_GrandPrix](public/assets/img/compare.png)
+
 
 ## TO DO:
 1. Add functionality to allow users that track their cars to compare their track results with a Formula 1 driver on a Formula 1 track of similar length.
