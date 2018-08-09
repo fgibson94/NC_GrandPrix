@@ -1,4 +1,6 @@
-# ![NC_GrandPrix](public/assets/img/NCGP.png)
+# NC_GrandPrix
+
+![NC_GrandPrix](public/assets/img/NCGP.png)
 
 
 For Formula 1 fans and everyone in between, NCGP allows users to compare their daily commute routes against Formula 1 drivers to see how quickly they could make the same trip based on recent race results. Up to date Formula 1 results are obtained from a Formula 1 API and users are able to choose which driver they would like to compare themselves to. Future additions will allow users that enjoy to race to compare thei own track results against drivers on a course of similar distance to their own.
